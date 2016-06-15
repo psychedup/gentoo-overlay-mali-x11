@@ -1,6 +1,6 @@
 EAPI=5
 
-inherit git-r3 linux-info flag-o-matic multilib
+inherit git-r3 linux-info flag-o-matic eutils
 
 EGIT_REPO_URI="git://github.com/mdrjr/c2_mali_ddx.git"
 
@@ -14,7 +14,13 @@ IUSE=""
 DEPEND="
 	x11-drivers/mali-drivers
 "
+
 src_configure() {
-	append-cflags -I/usr/src/linux-3.14.65-odroidc2/drivers/gpu/arm/
 	econf
+	epatch ${FILESDIR}/installdir.patch
 }
+
+src_install() {
+	emake DESTDIR="${D}" install
+}
+

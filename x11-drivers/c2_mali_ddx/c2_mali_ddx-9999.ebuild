@@ -13,7 +13,6 @@ IUSE=""
 
 DEPEND="
 	x11-drivers/mali-drivers
-	x11-libs/libump
 "
 
 src_configure() {

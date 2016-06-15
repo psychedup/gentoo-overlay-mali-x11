@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~arm64"
 IUSE=""
 
-DEPEND=">=app-admin/eselect-opengl-1.2.6"
+DEPEND=">=app-eselect/eselect-opengl-1.2.6"
 RDEPEND="${DEPEND} media-libs/mesa[gles1,gles2]"
 
 S="${WORKDIR}/${P}/x11"

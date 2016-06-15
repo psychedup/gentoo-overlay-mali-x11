@@ -12,7 +12,7 @@ KEYWORDS="~arm64"
 IUSE=""
 
 DEPEND=">=app-eselect/eselect-opengl-1.2.6"
-RDEPEND="${DEPEND} media-libs/mesa[gles1,gles2]"
+RDEPEND="${DEPEND} media-libs/mesa[-egl,-gles1,-gles2]"
 
 S="${WORKDIR}/${P}/x11"
 

@@ -1,6 +1,6 @@
 EAPI=5
 
-inherit git-r3 linux-info flag-o-matic
+inherit git-r3 linux-info flag-o-matic multilib
 
 EGIT_REPO_URI="git://github.com/mdrjr/c2_mali_ddx.git"
 

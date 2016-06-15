@@ -29,7 +29,7 @@ src_install() {
 	insinto /lib/udev/rules.d
 	doins "${FILESDIR}"/99-mali-drivers.rules
 
-	dodir /usr/lib/aarch64-linux-gnu/pkgconfig
+	dodir /usr/lib64/pkgconfig
 	dodir /usr/include
 	emake DESTDIR="${D}" install
 }

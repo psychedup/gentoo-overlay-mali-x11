@@ -3,7 +3,7 @@
 @@ -1,5 +1,5 @@
 -libdir := /usr/lib/aarch64-linux-gnu
 -includedir := /usr/include
-+libdir := ${D}/usr/lib/aarch64-linux-gnu
++libdir := ${D}/usr/lib64
 +includedir := ${D}/usr/include
  pkgconfigdir := $(libdir)/pkgconfig
  

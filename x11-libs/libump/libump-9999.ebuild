@@ -10,7 +10,7 @@ EGIT_BRANCH="r3p0-04rel0"
 EGIT_COMMIT="914c64ce07b30129c69030facacb52cd1e6197ef"
 DESCRIPTION="Unified Memory Provider userspace code needed for xf86-video-mali"
 
-KEYWORDS="~arm ~amd64 ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 
 LICENSE="Apache-2.0"
 SLOT="0"

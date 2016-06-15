@@ -8,7 +8,7 @@ inherit xorg-2 toolchain-funcs versionator
 EGIT_REPO_URI="git://github.com/robclark/libdri2.git"
 DESCRIPTION="Library for the DRI2 extension to the X Window System"
 
-KEYWORDS="~arm ~amd64 ~x86"
+KEYWORDS="~arm ~arm64 ~amd64 ~x86"
 IUSE=""
 
 RDEPEND="x11-libs/libX11

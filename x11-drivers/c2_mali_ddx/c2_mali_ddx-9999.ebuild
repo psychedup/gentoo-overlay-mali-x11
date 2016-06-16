@@ -21,6 +21,7 @@ src_configure() {
 }
 
 src_install() {
+	dodir /etc/X11
 	emake DESTDIR="${D}" install
 }
 

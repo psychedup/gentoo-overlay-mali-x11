@@ -29,13 +29,16 @@ fi
 LICENSE="MIT"
 SLOT="0"
 IUSE="test"
-RESTICT="test" # FIXME: tests fail when run from portage.
 
 DEPEND="${PYTHON_DEPS}
+	media-libs/mesa[egl]
+	x11-misc/util-macros
+	x11-libs/libX11"
+
+RDEPEND="${PYTHON_DEPS}
 	( || ( media-libs/mesa[egl] x11-drivers/mali-drivers ) )
 	x11-misc/util-macros
 	x11-libs/libX11"
-RDEPEND=""
 
 src_unpack() {
 	default

@@ -108,6 +108,7 @@ DEPEND="${RDEPEND}
 
 	doc? ( >=dev-util/gtk-doc-1.10 )
 	egl? ( media-libs/mesa[egl] )
+	gles2? ( media-libs/mesa[gles2] )
 	geoloc? ( dev-util/gdbus-codegen )
 	gles2? ( media-libs/mesa[egl] )
 	introspection? ( jit? ( sys-apps/paxctl ) )

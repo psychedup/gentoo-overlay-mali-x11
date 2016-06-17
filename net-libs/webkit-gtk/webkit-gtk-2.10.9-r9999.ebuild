@@ -108,7 +108,9 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 
 	doc? ( >=dev-util/gtk-doc-1.10 )
+	egl? ( media-libs/mesa[egl] )
 	geoloc? ( dev-util/gdbus-codegen )
+	gles2? ( media-libs/mesa[egl] )
 	introspection? ( jit? ( sys-apps/paxctl ) )
 	test? (
 		dev-lang/python:2.7

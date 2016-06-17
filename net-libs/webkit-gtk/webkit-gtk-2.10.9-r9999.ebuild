@@ -63,7 +63,6 @@ RDEPEND="
 	aqua? ( >=x11-libs/gtk+-3.14:3[aqua] )
 	egl? ( || ( media-libs/mesa[egl] x11-drivers/mali-drivers ) )
 	geoloc? ( >=app-misc/geoclue-2.1.5:2.0 )
-#	gles2? ( || ( media-libs/mesa[gles2] x11-drivers/mali-drivers ) )
 	gnome-keyring? ( app-crypt/libsecret )
 	gstreamer? (
 		>=media-libs/gstreamer-1.2:1.0

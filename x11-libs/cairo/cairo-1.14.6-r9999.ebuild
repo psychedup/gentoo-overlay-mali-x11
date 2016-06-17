@@ -54,6 +54,8 @@ DEPEND="${RDEPEND}
 	>=sys-devel/libtool-2
 	X? (
 		>=x11-proto/renderproto-0.11.1-r1[${MULTILIB_USEDEP}]
+		gles2? ( >=media-libs/mesa-9.1.6[gles2,${MULTILIB_USEDEP}] )
+		opengl? ( >=media-libs/mesa-9.1.6[egl,${MULTILIB_USEDEP}] )
 	)"
 #[[ ${PV} == *9999* ]] && DEPEND="${DEPEND}
 #	doc? (

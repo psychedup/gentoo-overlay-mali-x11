@@ -20,5 +20,5 @@ DEPEND="${RDEPEND}
 	x11-proto/renderproto
 	x11-proto/videoproto
 	x11-proto/xproto
-	x11-libs/libump
+	|| ( x11-libs/libump x11-driver/mali-drivers )
 "
